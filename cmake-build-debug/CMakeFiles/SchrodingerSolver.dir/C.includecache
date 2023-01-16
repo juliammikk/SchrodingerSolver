@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/main.c
+stdio.h
+-
+stdlib.h
+-
+math.h
+-
+solve.h
+/mnt/c/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/solve.h
+
+/mnt/c/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/solve.c
+stdio.h
+-
+stdlib.h
+-
+math.h
+-
+solve.h
+/mnt/c/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/solve.h
+
+/mnt/c/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/solve.h
+

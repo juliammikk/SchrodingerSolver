@@ -4,7 +4,6 @@
 #ifndef SCHRODINGERSOLVER_SOLVE_H
 #define SCHRODINGERSOLVER_SOLVE_H
 
-#endif //SCHRODINGERSOLVER_SOLVE_H
 
 // Solve_Bisect solves f(x) = nu using the bisect search method
 double Solve_Bisect(double nu, double (*func)(double), double x_min, double x_max, double tol, int *count);

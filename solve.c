@@ -43,8 +43,7 @@ double Solve_Bisect(double nu, double (*func)(double), double x_min, double x_ma
     if(f_max*f_min > 0.0) // we can’t find a solution within the range
     {
         //Warn and exit
-        fprintf(stderr, "Solve_Bisect: Solution cannot be found in given range.\n",
-                count_max);
+        fprintf(stderr, "Solve_Bisect: Solution cannot be found in given range.\n");
         fprintf(stderr, "Exiting.\n");
         exit(0);
 
@@ -108,22 +107,19 @@ double Solve_Newton(double nu, double (*func)(double), double x_0, double tol, i
         if(fabs(df) < tol) // Derivative is too small
         {
             //Warn and exit
-            fprintf(stderr, "Derivative is too small.\n",
-                    count_max);
+            fprintf(stderr, "Derivative is too small.\n");
             fprintf(stderr, "Exiting.\n");
             exit(0);
         }
-// TD: Implement x_new = x_old + (nu - f(x_old))/f’(x_old);
-// TD: Calculate err = |((x_new-x_old)/x_old)|;
-// Absolute value function is fabs(x)
-// TD: Set x_old = x_new
-// TD: Add 1 to *count
-// This is how you access a variable that is passed by reference.
+        x_new = x_old + (nu - (*func)(x_old)/df);
+        err = fabs((x_new-x_old)/x_old);
+        x_old = x_new;
+        *count ++;
+
         if(*count == count_max) // Too many iterations
         {
             //Warn and exit
-            fprintf(stderr, "Too many iterations.\n",
-                    count_max);
+            fprintf(stderr, "Too many iterations.\n");
             fprintf(stderr, "Exiting.\n");
             exit(0);
 
