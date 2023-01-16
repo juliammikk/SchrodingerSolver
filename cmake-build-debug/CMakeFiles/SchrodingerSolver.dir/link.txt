@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/SchrodingerSolver.dir/main.c.o CMakeFiles/SchrodingerSolver.dir/solve.c.o -o SchrodingerSolver 
