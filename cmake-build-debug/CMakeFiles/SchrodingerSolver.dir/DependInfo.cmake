@@ -8,8 +8,15 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/mnt/c/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/main.c" "/mnt/c/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/cmake-build-debug/CMakeFiles/SchrodingerSolver.dir/main.c.o"
-  "/mnt/c/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/solve.c" "/mnt/c/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/cmake-build-debug/CMakeFiles/SchrodingerSolver.dir/solve.c.o"
+  "C:/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/derivatives.c" "C:/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/cmake-build-debug/CMakeFiles/SchrodingerSolver.dir/derivatives.c.obj"
+  "C:/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/extremum.c" "C:/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/cmake-build-debug/CMakeFiles/SchrodingerSolver.dir/extremum.c.obj"
+  "C:/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/init.c" "C:/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/cmake-build-debug/CMakeFiles/SchrodingerSolver.dir/init.c.obj"
+  "C:/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/main.c" "C:/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/cmake-build-debug/CMakeFiles/SchrodingerSolver.dir/main.c.obj"
+  "C:/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/numerov.c" "C:/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/cmake-build-debug/CMakeFiles/SchrodingerSolver.dir/numerov.c.obj"
+  "C:/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/radial_eq_functions.c" "C:/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/cmake-build-debug/CMakeFiles/SchrodingerSolver.dir/radial_eq_functions.c.obj"
+  "C:/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/schroedinger.c" "C:/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/cmake-build-debug/CMakeFiles/SchrodingerSolver.dir/schroedinger.c.obj"
+  "C:/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/solve.c" "C:/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/cmake-build-debug/CMakeFiles/SchrodingerSolver.dir/solve.c.obj"
+  "C:/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/vector_mtx.c" "C:/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/cmake-build-debug/CMakeFiles/SchrodingerSolver.dir/vector_mtx.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

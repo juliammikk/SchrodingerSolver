@@ -1,1 +1,3 @@
-/usr/bin/cc -g CMakeFiles/SchrodingerSolver.dir/main.c.o CMakeFiles/SchrodingerSolver.dir/solve.c.o -o SchrodingerSolver 
+"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\SchrodingerSolver.dir/objects.a
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\ar.exe cr CMakeFiles\SchrodingerSolver.dir/objects.a @CMakeFiles\SchrodingerSolver.dir\objects1.rsp
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\SchrodingerSolver.dir/objects.a -Wl,--no-whole-archive -o SchrodingerSolver.exe -Wl,--out-implib,libSchrodingerSolver.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\SchrodingerSolver.dir\linklibs.rsp

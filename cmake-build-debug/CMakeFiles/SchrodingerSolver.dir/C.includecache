@@ -6,25 +6,41 @@
 
 #IncludeRegexTransform: 
 
-/mnt/c/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/main.c
+C:/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/init.h
+
+C:/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/main.c
 stdio.h
 -
 stdlib.h
 -
-math.h
--
-solve.h
-/mnt/c/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/solve.h
-
-/mnt/c/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/solve.c
-stdio.h
--
-stdlib.h
+string.h
 -
 math.h
 -
-solve.h
-/mnt/c/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/solve.h
+params.h
+C:/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/params.h
+numerov_params.h
+C:/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/numerov_params.h
+init.h
+C:/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/init.h
+errno.h
+-
+schroedinger.h
+C:/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/schroedinger.h
+vector_mtx.h
+C:/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/vector_mtx.h
 
-/mnt/c/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/solve.h
+C:/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/numerov_params.h
+params.h
+C:/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/params.h
+
+C:/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/params.h
+
+C:/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/schroedinger.h
+params.h
+C:/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/params.h
+numerov_params.h
+C:/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/numerov_params.h
+
+C:/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/vector_mtx.h
 

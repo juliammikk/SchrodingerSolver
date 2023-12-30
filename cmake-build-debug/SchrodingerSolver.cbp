@@ -8,84 +8,130 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/mnt/c/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/cmake-build-debug"/>
+				<Option working_dir="C:/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/megan/Desktop/mcgill/quantum\ 2/SchrodingerSolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/megan/Desktop/mcgill/quantum\ 2/SchrodingerSolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/megan/Desktop/mcgill/quantum\ 2/SchrodingerSolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/megan/Desktop/mcgill/quantum\ 2/SchrodingerSolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="rebuild_cache">
-				<Option working_dir="/mnt/c/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/megan/Desktop/mcgill/quantum\ 2/SchrodingerSolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/megan/Desktop/mcgill/quantum\ 2/SchrodingerSolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/megan/Desktop/mcgill/quantum\ 2/SchrodingerSolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/megan/Desktop/mcgill/quantum\ 2/SchrodingerSolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/mnt/c/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/megan/Desktop/mcgill/quantum\ 2/SchrodingerSolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/megan/Desktop/mcgill/quantum\ 2/SchrodingerSolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/megan/Desktop/mcgill/quantum\ 2/SchrodingerSolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/megan/Desktop/mcgill/quantum\ 2/SchrodingerSolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="SchrodingerSolver">
-				<Option output="/mnt/c/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/cmake-build-debug/SchrodingerSolver" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/mnt/c/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/cmake-build-debug"/>
+				<Option output="C:/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/cmake-build-debug/SchrodingerSolver.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/megan/Desktop/mcgill/quantum\ 2/SchrodingerSolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 SchrodingerSolver"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/megan/Desktop/mcgill/quantum\ 2/SchrodingerSolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/megan/Desktop/mcgill/quantum\ 2/SchrodingerSolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/megan/Desktop/mcgill/quantum\ 2/SchrodingerSolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 SchrodingerSolver"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="SchrodingerSolver/fast">
-				<Option output="/mnt/c/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/cmake-build-debug/SchrodingerSolver" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/mnt/c/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/cmake-build-debug"/>
+				<Option output="C:/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/cmake-build-debug/SchrodingerSolver.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/megan/Desktop/mcgill/quantum\ 2/SchrodingerSolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 SchrodingerSolver/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/megan/Desktop/mcgill/quantum\ 2/SchrodingerSolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/megan/Desktop/mcgill/quantum\ 2/SchrodingerSolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/megan/Desktop/mcgill/quantum\ 2/SchrodingerSolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 SchrodingerSolver/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/mnt/c/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/main.c">
+		<Unit filename="C:/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/derivatives.c">
 			<Option target="SchrodingerSolver"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/solve.c">
+		<Unit filename="C:/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/derivatives.h">
 			<Option target="SchrodingerSolver"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/solve.h">
+		<Unit filename="C:/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/extremum.c">
 			<Option target="SchrodingerSolver"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/CMakeLists.txt">
+		<Unit filename="C:/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/extremum.h">
+			<Option target="SchrodingerSolver"/>
+		</Unit>
+		<Unit filename="C:/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/init.c">
+			<Option target="SchrodingerSolver"/>
+		</Unit>
+		<Unit filename="C:/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/init.h">
+			<Option target="SchrodingerSolver"/>
+		</Unit>
+		<Unit filename="C:/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/main.c">
+			<Option target="SchrodingerSolver"/>
+		</Unit>
+		<Unit filename="C:/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/numerov.c">
+			<Option target="SchrodingerSolver"/>
+		</Unit>
+		<Unit filename="C:/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/numerov.h">
+			<Option target="SchrodingerSolver"/>
+		</Unit>
+		<Unit filename="C:/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/numerov_params.h">
+			<Option target="SchrodingerSolver"/>
+		</Unit>
+		<Unit filename="C:/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/params.h">
+			<Option target="SchrodingerSolver"/>
+		</Unit>
+		<Unit filename="C:/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/radial_eq_functions.c">
+			<Option target="SchrodingerSolver"/>
+		</Unit>
+		<Unit filename="C:/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/radial_eq_functions.h">
+			<Option target="SchrodingerSolver"/>
+		</Unit>
+		<Unit filename="C:/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/schroedinger.c">
+			<Option target="SchrodingerSolver"/>
+		</Unit>
+		<Unit filename="C:/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/schroedinger.h">
+			<Option target="SchrodingerSolver"/>
+		</Unit>
+		<Unit filename="C:/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/solve.c">
+			<Option target="SchrodingerSolver"/>
+		</Unit>
+		<Unit filename="C:/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/solve.h">
+			<Option target="SchrodingerSolver"/>
+		</Unit>
+		<Unit filename="C:/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/vector_mtx.c">
+			<Option target="SchrodingerSolver"/>
+		</Unit>
+		<Unit filename="C:/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/vector_mtx.h">
+			<Option target="SchrodingerSolver"/>
+		</Unit>
+		<Unit filename="C:/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

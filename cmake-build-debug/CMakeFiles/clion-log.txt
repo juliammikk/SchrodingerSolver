@@ -1,4 +1,4 @@
-C:\WINDOWS\system32\wsl.exe --distribution Ubuntu --exec /bin/sh -c "export CLION_IDE=TRUE && export JETBRAINS_IDE=TRUE && cd '/mnt/c/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/cmake-build-debug' && /tmp/cmake-3.20.0/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G 'CodeBlocks - Unix Makefiles' '/mnt/c/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver'"
+"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - MinGW Makefiles" "C:\Users\megan\Desktop\mcgill\quantum 2\SchrodingerSolver"
 -- Configuring done
 -- Generating done
--- Build files have been written to: /mnt/c/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/cmake-build-debug
+-- Build files have been written to: C:/Users/megan/Desktop/mcgill/quantum 2/SchrodingerSolver/cmake-build-debug

@@ -40,18 +40,18 @@ double Solve_Bisect(double nu, double (*func)(double), double x_min, double x_ma
     f_max = (*func)(x_max) - nu; // Calculate f_max = f(x_max) - nu
     f_min = (*func)(x_min) - nu; //Calculate f_min = f(x_min) - nu
 
+
     if(f_max*f_min > 0.0) // we can’t find a solution within the range
     {
         //Warn and exit
         fprintf(stderr, "Solve_Bisect: Solution cannot be found in given range.\n");
         fprintf(stderr, "Exiting.\n");
         exit(0);
-
-
     }
 
     x_mid = (x_min + x_max)/2.0;
-    f_mid = (*func)(f_mid) - nu;
+    f_mid = (*func)(x_mid) - nu;
+
 
     // Calculate the error
     if(nu != 0.0) err = fabs(f_mid/nu);
@@ -66,7 +66,7 @@ double Solve_Bisect(double nu, double (*func)(double), double x_min, double x_ma
     }
     else if(f_min*f_mid < 0.0) // the solution is between x_min and x_mid
     {
-        return Solve_Bisect(nu, func, x_mid, x_mid, tol, count);
+        return Solve_Bisect(nu, func, x_min, x_mid, tol, count);
     }
     else // one of the factors is zero, return said factor
     {
@@ -97,7 +97,7 @@ double Solve_Get_Df(double (*func)(double), double x_old)
 // using x_{n+1} = x_n + (nu -f(x_n))/f’(x_n)
 double Solve_Newton(double nu, double (*func)(double), double x_0, double tol, int *count)
 {
-    double x_old, x_new, err, df, h;
+    double x_old, x_new, err, df;
     int count_max;
     count_max = 1000;
     x_old = x_0; // Initial value
@@ -111,10 +111,10 @@ double Solve_Newton(double nu, double (*func)(double), double x_0, double tol, i
             fprintf(stderr, "Exiting.\n");
             exit(0);
         }
-        x_new = x_old + (nu - (*func)(x_old)/df);
+        x_new = x_old + ((nu - (*func)(x_old))/df);
         err = fabs((x_new-x_old)/x_old);
         x_old = x_new;
-        *count ++;
+        (*count) ++;
 
         if(*count == count_max) // Too many iterations
         {
@@ -122,7 +122,6 @@ double Solve_Newton(double nu, double (*func)(double), double x_0, double tol, i
             fprintf(stderr, "Too many iterations.\n");
             fprintf(stderr, "Exiting.\n");
             exit(0);
-
         }
     } while(err > tol);
     return x_new;
