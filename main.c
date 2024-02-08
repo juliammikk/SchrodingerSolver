@@ -13,11 +13,6 @@
 // Functions needed only in this file
 // Read in Params parameters
 void ReadIn_Params(char *input_file, DynamicVars *Dyn_Vars);
-// Read in NumerovParams parameters
-// This only reads in the number of data points for u_I and u_II
-// The rest of the NumerovParams are read in by
-// Schroedinger_InitializeCommonVar
-//
 
 
 void ReadIn_Num_Params
@@ -33,8 +28,7 @@ void Record_Results(DynamicVars Dyn_Vars,
                     double *yf, double *yb);
 
 
-// This is declared as an extern in params.h
-// As such, it needs to be declared outside params.h, but only once.
+
 Params PARAM_DATA;
 
 
@@ -76,9 +70,7 @@ int main(int argc, char **argv)
 }// main
 
 
-// TD: Implement ReadIn_Params
-// Follow the structure of ReadIn_Num_Params from the previous section
-// Input_file contains the name of the input file
+
 void ReadIn_Params(char *input_file, DynamicVars *Dyn_Vars)
 {
     FILE *input;
@@ -91,9 +83,7 @@ void ReadIn_Params(char *input_file, DynamicVars *Dyn_Vars)
         // handle the error, such as exiting the program or returning an error code
     }
 
-// TD: Read in the mass and divide it by hbarc so that it has
-// the 1/length unit. We are going to use the length unit for everything
-// Put it in PARAM_DATA.mass.
+
    double mass;
    fscanf(input, "%le", &mass);
    mass /= hbarc;
@@ -102,15 +92,11 @@ void ReadIn_Params(char *input_file, DynamicVars *Dyn_Vars)
 // Read in the mass unit
     mass_unit = (char *) malloc(sizeof(char)*10);
 // First allocate enough memory to hold it.
-// 10 should be enough for any mass units
-// From the second line, read in a line and put it in PARAM_DATA.mass_unit
 
+// From the second line, read in a line and put it in PARAM_DATA.mass_unit
     fscanf(input, "%s", mass_unit);
     PARAM_DATA.mass_unit = mass_unit;
-// According to the mass unit, determine the length unit
-// strcmp is defined in string.h. It means "string compare".
-// If the two strings are the same, then it returns 0.
-// If the two strings are not the same, it returns non-zero.
+
     if(strcmp(mass_unit, "eV")==0) {PARAM_DATA.length_unit = "nm";}
     else if(strcmp(mass_unit, "MeV")==0) {PARAM_DATA.length_unit = "fm";}
     else {
