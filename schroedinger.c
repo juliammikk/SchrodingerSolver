@@ -10,11 +10,7 @@
 #include "solve.h"
 #include "init.h"
 
-// Common variables to be used only within this file
-// These variables are needed because our equation solvers
-// Solve_Bisect and Solve_Newton needs a function that is
-// a function only of a single double argument.
-//
+
 NumerovParams *COM_N_PARAMS_F;
 NumerovParams *COM_N_PARAMS_B;
 DynamicVars *COM_D_PARAMS;
