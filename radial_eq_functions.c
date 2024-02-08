@@ -6,8 +6,6 @@
 #include "params.h"
 #define alpha_EM (1.0/137.0) // The fine structure constant
 
-// User defined function:
-// RadialEqFunctions_V(double r) is the only function one should change.
 
 // This is in the unit of 1/fm or 1/nm
 double RadialEqFunctions_V(double r)
