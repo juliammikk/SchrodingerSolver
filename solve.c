@@ -1,6 +1,3 @@
-//
-// Created by megan on 14/01/2023.
-//
 
 // File: solve.c
 #include <stdio.h>
@@ -9,19 +6,12 @@
 #include "solve.h"
 
 // Numerical derivative
-// This function is visible only within this file.
 double Solve_Get_Df(double (*func)(double), double x);
-// We could implement this numerical derivative as a general utility function
-// and in fact we will do that shortly. We are including this here to make
-// Solve function self-contained. But that is not strictly necessry.
-
 
 
 
 
 // Solve f(x) = nu using bisect method
-// Note that count is passed by reference (that is, the pointer is passed)
-// because we want to change the value of it inside Solve_Bisect
 double Solve_Bisect(double nu, double (*func)(double), double x_min, double x_max, double tol, int *count){
     double x_mid, f_max, f_min, f_mid, err;
     int count_max = 1000; // Large enough.
@@ -85,7 +75,6 @@ double Solve_Get_Df(double (*func)(double), double x_old)
     double h, df;
     if(x_old != 0.0) { h = x_old*1.0E-5; }
     else {h = 1.0E-5; }
-    // This is how one accesses the function passed to this function via the function pointer (*func)
     df = (*func)(x_old+h) - (*func)(x_old-h);
     df /= 2.0*h;
     return df;
@@ -101,8 +90,7 @@ double Solve_Newton(double nu, double (*func)(double), double x_0, double tol, i
     int count_max;
     count_max = 1000;
     x_old = x_0; // Initial value
-    do { // Do the following while the condition in the while(...)
-// below is satisfied
+    do {
         df = Solve_Get_Df(func, x_old); // Get the derivative
         if(fabs(df) < tol) // Derivative is too small
         {
